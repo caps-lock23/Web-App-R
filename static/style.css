@@ -1,0 +1,53 @@
+body {
+    background: #056608;
+    background: -webkit-linear-gradient(to right, rgba(2, 37, 3), rgba(82, 199, 85));
+    background: linear-gradient(to right, rgba(2, 37, 3), rgba(82, 199, 85));
+}
+
+#root {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* Remove the outline from the video embed */
+        #root video {
+            outline: none;
+        }
+
+        /* Style the "Back to Dashboard" button */
+        .back-to-dashboard {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .back-to-dashboard button {
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hide any content that overflows the viewport */
+        body {
+            overflow: hidden;
+            overflow-y: auto;
+        }
+
+        .top-left-img, .top-right-img {
+            position: absolute;
+            width: 250px;  /* Adjust size */
+            height: auto;
+        }
+        
+        .top-left-img {
+            top: 20px;
+            left: 50px;
+        }
+        
+        .top-right-img {
+            top: 20px;
+            right: 50px;
+        }
+        
